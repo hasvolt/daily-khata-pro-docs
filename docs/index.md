@@ -13,7 +13,7 @@ hero:
       link: /guide/getting-started
     - theme: alt
       text: Frequently Asked Questions
-      link: /guide/faq
+      link: /guide/chapter-23-frequently-asked-questions
 
 features:
   - icon: 📒
