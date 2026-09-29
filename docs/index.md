@@ -210,7 +210,7 @@ If a feature does not behave as expected:
 
 For a common question, start here:
 
-[Browse Frequently Asked Questions →](/guide/faq)
+[Browse Frequently Asked Questions →](/guide/chapter-23-frequently-asked-questions)
 
 ## Our Documentation Goal
 
