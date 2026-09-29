@@ -104,4 +104,4 @@ Always verify important information independently.
 For a broader explanation of the app's purpose and documentation, continue to **Introduction & Overview**. For common questions about records, calculators, storage, and troubleshooting, visit **Frequently Asked Questions**.
 
 - [Introduction & Overview](/guide/chapter-1-introduction-overview)
-- [Frequently Asked Questions](/guide/faq)
+- [Frequently Asked Questions](/guide/chapter-23-frequently-asked-questions)
