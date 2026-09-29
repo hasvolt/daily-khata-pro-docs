@@ -1,0 +1,15 @@
+{
+  "name": "daily-khata-pro-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official user manual, documentation, and help center for Daily Khata Pro.",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
