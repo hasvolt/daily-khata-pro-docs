@@ -151,7 +151,7 @@ Begin with the basic guide if you are new to the app or want to review the recom
 
 The FAQ section addresses common questions about app usage, records, calculators, storage, backup, security, and troubleshooting. It is a useful first stop when you are unsure how a feature works.
 
-[Browse Frequently Asked Questions →](/guide/faq)
+[Browse Frequently Asked Questions →](/guide/chapter-23-frequently-asked-questions)
 
 ### Other Guides
 
