@@ -12,132 +12,147 @@ export default defineConfig({
   themeConfig: {
     siteTitle: 'Daily Khata Pro',
 
+    // Top Navigation Menu
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'User Guide', link: '/guide/getting-started' },
-      { text: 'FAQ', link: '/guide/faq' }
+      {
+        text: 'Getting Started',
+        link: '/guide/getting-started'
+      },
+      {
+        text: 'User Guide',
+        link: '/guide/chapter-1-introduction-overview'
+      },
+      {
+        text: 'FAQ',
+        link: '/guide/chapter-23-frequently-asked-questions'
+      }
     ],
 
+    // Documentation Sidebar
     sidebar: [
       {
         text: 'Start Here',
         collapsed: false,
         items: [
-          { text: 'Getting Started', link: '/guide/getting-started' },
           {
-            text: 'Introduction & Overview',
+            text: 'Getting Started Guide',
+            link: '/guide/getting-started'
+          },
+          {
+            text: 'Chapter 1 — Introduction & Overview',
             link: '/guide/chapter-1-introduction-overview'
+          },
+          {
+            text: 'Chapter 2 — App Passcode Lock & Security Vault',
+            link: '/guide/chapter-2-app-passcode-lock-security'
           }
         ]
       },
 
       {
-        text: 'Financial Records',
+        text: 'Chapters 3–11: Records & Planning',
         collapsed: true,
         items: [
           {
-            text: 'Personal Notes & Private Vault',
+            text: 'Chapter 3 — Personal Notes & Private Vault',
             link: '/guide/chapter-3-personal-notes-private-vault'
           },
           {
-            text: 'Smart Fund Allocation',
+            text: 'Chapter 4 — Smart Fund Allocation Rule',
             link: '/guide/chapter-4-smart-fund-allocation-rule'
           },
           {
-            text: 'Recording Income & Splits',
+            text: 'Chapter 5 — Recording Income & Splits',
             link: '/guide/chapter-5-recording-income-and-splits'
           },
           {
-            text: 'Logging Expenses & Deductions',
+            text: 'Chapter 6 — Logging Expenses & Deductions',
             link: '/guide/chapter-6-logging-expenses-and-deductions'
           },
           {
-            text: 'Financial Goals & Milestones',
+            text: 'Chapter 7 — Work Projects & Daily Timeline',
+            link: '/guide/chapter-7-work-projects-and-daily-timeline'
+          },
+          {
+            text: 'Chapter 8 — Financial Goals & Milestones',
             link: '/guide/chapter-8-financial-goals-and-milestones'
           },
           {
-            text: 'Split Bill & Group Share',
+            text: 'Chapter 9 — Split Bill & Group Share',
             link: '/guide/chapter-9-split-bill-group-share'
           },
           {
-            text: 'Loans, EMIs & Udhar Records',
+            text: 'Chapter 10 — Loans, EMIs & Udhar Records',
             link: '/guide/chapter-10-loans-emis-udhar-records'
           },
           {
-            text: 'Category Budgets & Spending Limits',
+            text: 'Chapter 11 — Category Budgets & Spending Limits',
             link: '/guide/chapter-11-category-budgets-spending-limits'
           }
         ]
       },
 
       {
-        text: 'Settings, Calculators & Reports',
+        text: 'Chapters 12–15: Reports, Settings & Data Safety',
         collapsed: true,
         items: [
           {
-            text: 'Custom Settings & Rules Engine',
-            link: '/guide/chapter-13-custom-settings-rules-engine'
-          },
-          {
-            text: 'Reports, Charts & PDF Statements',
+            text: 'Chapter 12 — Reports, Charts & PDF Statements',
             link: '/guide/chapter-12-reports-charts-pdf-statements'
           },
           {
-            text: 'GST & Non-GST Invoice Generator',
-            link: '/guide/chapter-16-gst-non-gst-invoice-generator'
+            text: 'Chapter 13 — Custom Settings & Rules Engine',
+            link: '/guide/chapter-13-custom-settings-rules-engine'
           },
           {
-            text: 'Financial Planning Calculators',
-            link: '/guide/chapter-17-multi-purpose-financial-planning-calculators'
-          },
-          {
-            text: 'Cross-Currency Calculator',
-            link: '/guide/chapter-18-universal-multi-country-cross-currency-calculator'
-          }
-        ]
-      },
-
-      {
-        text: 'Work & Research',
-        collapsed: true,
-        items: [
-          {
-            text: 'Work Projects & Daily Timeline',
-            link: '/guide/chapter-7-work-projects-and-daily-timeline'
-          },
-          {
-            text: 'Work Attendance & Shift Wage Register',
-            link: '/guide/chapter-20-work-attendance-shift-wage-register'
-          },
-          {
-            text: 'Sensex, Nifty 50 & Commercial Research',
-            link: '/guide/chapter-19-live-sensex-nifty50-commercial-research'
-          },
-          {
-            text: 'Finance Knowledge Blog',
-            link: '/guide/chapter-21-finance-knowledge-blog-editorial-library'
-          }
-        ]
-      },
-
-      {
-        text: 'Security & Data Management',
-        collapsed: true,
-        items: [
-          {
-            text: 'App Passcode Lock & Security Vault',
-            link: '/guide/app-passcode-lock-security'
-          },
-          {
-            text: 'Backup, Restore & Data Safety',
+            text: 'Chapter 14 — Backup, Restore & Data Safety',
             link: '/guide/chapter-14-backup-restore-data-sovereignty'
           },
           {
-            text: 'Source Code & Safety Audit',
+            text: 'Chapter 15 — Source Code & Safety Audit',
             link: '/guide/chapter-15-source-code-and-safety-audit'
+          }
+        ]
+      },
+
+      {
+        text: 'Chapters 16–19: Calculators & Research',
+        collapsed: true,
+        items: [
+          {
+            text: 'Chapter 16 — GST & Non-GST Invoice Generator',
+            link: '/guide/chapter-16-gst-non-gst-invoice-generator'
           },
           {
-            text: 'Google Drive Backup & Sync',
+            text: 'Chapter 17 — Financial Planning Calculators',
+            link: '/guide/chapter-17-multi-purpose-financial-planning-calculators'
+          },
+          {
+            text: 'Chapter 18 — Cross-Currency Calculator',
+            link: '/guide/chapter-18-universal-multi-country-cross-currency-calculator'
+          },
+          {
+            text: 'Chapter 19 — Sensex, Nifty 50 & Commercial Research',
+            link: '/guide/chapter-19-live-sensex-nifty50-commercial-research'
+          }
+        ]
+      },
+
+      {
+        text: 'Chapters 20–22: Work, Learning & Backup',
+        collapsed: true,
+        items: [
+          {
+            text: 'Chapter 20 — Work Attendance & Shift Wage Register',
+            link: '/guide/chapter-20-work-attendance-shift-wage-register'
+          },
+          {
+            text: 'Chapter 21 — Finance Knowledge Blog',
+            link: '/guide/chapter-21-finance-knowledge-blog-editorial-library'
+          },
+          {
+            text: 'Chapter 22 — Google Drive Backup & Sync',
             link: '/guide/chapter-22-google-drive-client-side-sync-backup'
           }
         ]
@@ -148,36 +163,34 @@ export default defineConfig({
         collapsed: false,
         items: [
           {
-            text: 'Frequently Asked Questions',
-            link: '/guide/faq'
-          },
-          {
-            text: 'FAQ — Detailed Chapter',
+            text: 'Chapter 23 — Frequently Asked Questions',
             link: '/guide/chapter-23-frequently-asked-questions'
-          },
-          { text: 'Troubleshooting', link: '/troubleshooting' },
-          { text: 'Privacy', link: '/privacy' }
+          }
         ]
       }
     ],
 
+    // Local Documentation Search
     search: {
       provider: 'local'
     },
 
+    // Table of Contents on Each Page
     outline: {
       label: 'On this page',
       level: [2, 3]
     },
 
+    // Previous and Next Page Navigation
     docFooter: {
       prev: 'Previous page',
       next: 'Next page'
     },
 
+    // Website Footer
     footer: {
       message: 'Official Documentation for Daily Khata Pro',
-      copyright: 'Copyright © 2026 HasVolt'
+      copyright: 'Copyright © 2026 Rozfiber'
     },
 
     lastUpdatedText: 'Last updated'
