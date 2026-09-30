@@ -7,7 +7,7 @@ export default defineConfig({
     'Official user manual, documentation, and help center for Daily Khata Pro.',
 
   cleanUrls: true,
-  lastUpdated: true,
+  cleanUrls: false,
     head: [
       [
         'link',
