@@ -8,7 +8,20 @@ export default defineConfig({
 
   cleanUrls: true,
   lastUpdated: true,
+    head: [
+      [
+        'link',
+        {
+          rel: 'icon',
+          type: 'image/svg+xml',
+          href: '/favicon.svg'
+        }
+      ]
+    ],
 
+    sitemap: {
+      hostname: 'https://docs.rozfiber.com'
+    },
   themeConfig: {
     siteTitle: 'Daily Khata Pro',
 
