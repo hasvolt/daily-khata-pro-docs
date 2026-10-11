@@ -39,7 +39,7 @@ These are summaries of payment records. Open the Payments list or Reports to see
 
 ## Privacy mask
 
-Use the eye button to hide amounts on screen. See [Privacy mask](52-privacy-mask.md).
+Use the eye button to hide amounts on screen. See [Privacy mask](52-app-lock-and-privacy-mask.md).
 
 ## Daily Khata Pro
 
