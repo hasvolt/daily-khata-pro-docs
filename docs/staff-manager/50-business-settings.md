@@ -1,6 +1,5 @@
 ---
-title: Business settings
-description: "The settings of a business: name, currency, month mode, print text and team options."
+title: Business settingsdescription: "The settings of a business: name, currency, month mode, print text and team options."
 sidebar_position: 50
 category: Settings
 ---
