@@ -77,7 +77,7 @@ Contractors, shop owners, workshops and small factories, farms and households th
 |---|---|
 | [Business settings](50-business-settings.md) | The settings of a business: name, currency, month mode, print text and team options. |
 | [Themes and languages](51-themes-and-languages.md) | Choose from 12 themes and 16 built-in languages, plus online translation. |
-| [Privacy mask](52-privacy-mask.md) | Hide money amounts on screen. |
+| [Privacy mask](52-app-lock-and-privacy-mask.md) | Hide money amounts on screen. |
 | [Profile and account settings](53-profile-and-account-settings.md) | Update your name and phone, change your password, export data or delete your account. |
 
 ## Help
