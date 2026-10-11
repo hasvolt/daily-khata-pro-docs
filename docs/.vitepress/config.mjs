@@ -26,20 +26,24 @@ export default defineConfig({
 
     // Top Navigation Menu
     nav: [
-      { text: 'Home', link: '/' },
-      {
-        text: 'Getting Started',
-        link: '/guide/getting-started'
-      },
-      {
-        text: 'User Guide',
-        link: '/guide/chapter-1-introduction-overview'
-      },
-      {
-        text: 'FAQ',
-        link: '/guide/chapter-23-frequently-asked-questions'
-      }
-    ],
+  { text: 'Home', link: '/' },
+  {
+    text: 'Getting Started',
+    link: '/guide/getting-started'
+  },
+  {
+    text: 'User Guide',
+    link: '/guide/chapter-1-introduction-overview'
+  },
+  {
+    text: 'FAQ',
+    link: '/guide/chapter-23-frequently-asked-questions'
+  },
+  {
+    text: 'Staff Manager',
+    link: '/staff-manager/'
+  }
+],
 
     // Documentation Sidebar
     sidebar: [
