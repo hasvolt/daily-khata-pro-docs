@@ -47,7 +47,109 @@ export default defineConfig({
 
     // Documentation Sidebar
     sidebar: [
-      {
+     {
+  text: 'Staff Manager',
+  collapsed: true,
+  link: '/staff-manager/',
+  items: [
+    {
+      text: 'Introduction',
+      link: '/staff-manager/01-introduction'
+    },
+    {
+      text: 'Quick Start',
+      link: '/staff-manager/02-quick-start'
+    },
+    {
+      text: 'Accounts and Sign In',
+      link: '/staff-manager/03-accounts-and-sign-in'
+    },
+    {
+      text: 'Local Mode and Cloud',
+      link: '/staff-manager/04-local-mode-and-upgrade-to-cloud'
+    },
+    {
+      text: 'Install and Offline Use',
+      link: '/staff-manager/05-install-and-offline-use'
+    },
+    {
+      text: 'Businesses',
+      link: '/staff-manager/10-businesses'
+    },
+    {
+      text: 'Staff Profiles',
+      link: '/staff-manager/11-staff-profiles'
+    },
+    {
+      text: 'Payment Types and Rates',
+      link: '/staff-manager/12-payment-types-and-rates'
+    },
+    {
+      text: 'Daily Attendance',
+      link: '/staff-manager/14-daily-attendance'
+    },
+    {
+      text: 'Payments and Ledger',
+      link: '/staff-manager/16-payments-advances-and-ledger'
+    },
+    {
+      text: 'Calculations',
+      link: '/staff-manager/17-calculations-with-examples'
+    },
+    {
+      text: 'Month Settlement',
+      link: '/staff-manager/18-month-settlement-and-period-locking'
+    },
+    {
+      text: 'Salary Slips',
+      link: '/staff-manager/31-salary-slips-and-statements'
+    },
+    {
+      text: 'Roles and Permissions',
+      link: '/staff-manager/41-roles-and-permissions'
+    },
+    {
+      text: 'Offline and Sync',
+      link: '/staff-manager/42-multi-device-sync-and-offline'
+    },
+    {
+      text: 'Backup and Restore',
+      link: '/staff-manager/45-backup-restore-and-export'
+    },
+    {
+      text: 'Privacy and Security',
+      link: '/staff-manager/47-privacy-and-data-security'
+    },
+    {
+      text: 'FAQ',
+      link: '/staff-manager/61-faq'
+    },
+    {
+      text: 'Troubleshooting',
+      link: '/staff-manager/62-troubleshooting'
+    },
+    {
+      text: 'Limitations',
+      link: '/staff-manager/64-limitations-and-roadmap'
+    },
+    {
+      text: 'Deployment Guide',
+      link: '/staff-manager/80-deployment-guide'
+    },
+    {
+      text: 'Database and Security',
+      link: '/staff-manager/83-database-and-security-rules'
+    },
+    {
+      text: 'Testing Checklist',
+      link: '/staff-manager/84-testing-checklist'
+    },
+    {
+      text: 'Changelog',
+      link: '/staff-manager/90-changelog'
+    }
+  ]
+}, {
         text: 'Start Here',
         collapsed: false,
         items: [
