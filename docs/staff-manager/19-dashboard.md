@@ -1,6 +1,6 @@
 ---
 title: Dashboard
-description: The Home screen: staff counts, quick actions, cost summaries and payout trend.
+description: "The Home screen: staff counts, quick actions, cost summaries and payout trend."
 sidebar_position: 19
 category: Core features
 ---
