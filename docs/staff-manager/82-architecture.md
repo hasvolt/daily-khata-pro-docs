@@ -1,6 +1,6 @@
 ---
 title: Architecture
-description: How Staff Manager is built: local-first storage, sync, backend and security.
+description: "How Staff Manager is built: local-first storage, sync, backend and security."
 sidebar_position: 82
 category: Administrators and developers
 ---
