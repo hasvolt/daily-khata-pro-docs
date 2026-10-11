@@ -34,7 +34,7 @@ No system can promise perfect security. Use a strong password, keep your devices
 
 ## Your controls
 
-- Hide amounts with the [privacy mask](52-privacy-mask.md).
+- Hide amounts with the [privacy mask](52-app-lock-and-privacy-mask.md).
 - Choose what appears in reports. For example, phone numbers appear only if you include them.
 - Download your data at any time. See [Backup, restore and export](45-backup-restore-and-export.md).
 - Delete your account and cloud data. See [Profile and account settings](53-profile-and-account-settings.md).
