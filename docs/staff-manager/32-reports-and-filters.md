@@ -48,7 +48,7 @@ Print, PDF, CSV (opens in Excel) and share. See [Print, PDF, Excel and share](33
 
 ## Privacy mask
 
-When the privacy mask is on, amounts are hidden in reports. See [Privacy mask](52-privacy-mask.md).
+When the privacy mask is on, amounts are hidden in reports. See [Privacy mask](52-app-lock-and-privacy-mask.md).
 
 ## Performance
 
