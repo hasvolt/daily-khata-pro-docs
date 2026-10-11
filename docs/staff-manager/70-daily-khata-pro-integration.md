@@ -1,6 +1,6 @@
 ---
 title: Daily Khata Pro integration
-description: How Staff Manager connects to Daily Khata Pro.
+description: "How Staff Manager connects to Daily Khata Pro."
 sidebar_position: 70
 category: Integrations
 ---

@@ -1,6 +1,6 @@
 ---
 title: Use cases
-description: Setup ideas for contractors, shops, workshops, farms and households.
+description: "Setup ideas for contractors, shops, workshops, farms and households."
 sidebar_position: 60
 category: Help
 ---

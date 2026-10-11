@@ -1,6 +1,6 @@
 ---
 title: Quick start
-description: Set up Staff Manager and run your first day in about five minutes.
+description: "Set up Staff Manager and run your first day in about five minutes."
 sidebar_position: 2
 category: Getting started
 ---

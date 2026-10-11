@@ -1,6 +1,6 @@
 ---
 title: Basic calculator
-description: The built-in calculator and the link to the advanced calculators in Daily Khata Pro.
+description: "The built-in calculator and the link to the advanced calculators in Daily Khata Pro."
 sidebar_position: 20
 category: Core features
 ---

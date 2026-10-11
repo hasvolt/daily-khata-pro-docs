@@ -1,6 +1,6 @@
 ---
 title: Custom fields
-description: Add your own fields to staff profiles.
+description: "Add your own fields to staff profiles."
 sidebar_position: 13
 category: Core features
 ---

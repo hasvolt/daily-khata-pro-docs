@@ -1,6 +1,6 @@
 ---
 title: Print, PDF, Excel and share
-description: Print, download and share reports, slips and receipts, and what each option supports.
+description: "Print, download and share reports, slips and receipts, and what each option supports."
 sidebar_position: 33
 category: Reports and printing
 ---

@@ -1,6 +1,6 @@
 ---
 title: Privacy and data security
-description: How Staff Manager handles and protects the data of your staff and business.
+description: "How Staff Manager handles and protects the data of your staff and business."
 sidebar_position: 47
 category: Team, safety and data
 ---

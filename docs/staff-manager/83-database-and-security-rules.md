@@ -1,6 +1,6 @@
 ---
 title: Database and security rules
-description: Tables, functions and access rules in the Staff Manager database.
+description: "Tables, functions and access rules in the Staff Manager database."
 sidebar_position: 83
 category: Administrators and developers
 ---

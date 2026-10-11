@@ -1,6 +1,6 @@
 ---
 title: Privacy mask
-description: Hide money amounts on screen.
+description: "Hide money amounts on screen."
 sidebar_position: 52
 category: Settings
 ---

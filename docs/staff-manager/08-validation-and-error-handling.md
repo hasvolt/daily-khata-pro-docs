@@ -1,6 +1,6 @@
 ---
 title: Validation and error messages
-description: Common messages in Staff Manager and what to do about them.
+description: "Common messages in Staff Manager and what to do about them."
 sidebar_position: 8
 category: Getting started
 ---

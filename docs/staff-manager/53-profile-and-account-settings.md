@@ -1,6 +1,6 @@
 ---
 title: Profile and account settings
-description: Update your name and phone, change your password, export data or delete your account.
+description: "Update your name and phone, change your password, export data or delete your account."
 sidebar_position: 53
 category: Settings
 ---

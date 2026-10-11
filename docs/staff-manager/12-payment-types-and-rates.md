@@ -1,6 +1,6 @@
 ---
 title: Payment types and rates
-description: Daily, monthly, hourly and per piece pay, overtime, and how rate changes are recorded.
+description: "Daily, monthly, hourly and per piece pay, overtime, and how rate changes are recorded."
 sidebar_position: 12
 category: Core features
 ---

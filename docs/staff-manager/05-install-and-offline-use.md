@@ -1,6 +1,6 @@
 ---
 title: Install and offline use
-description: Install Staff Manager as an app and keep working without internet.
+description: "Install Staff Manager as an app and keep working without internet."
 sidebar_position: 5
 category: Getting started
 ---

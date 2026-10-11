@@ -1,6 +1,6 @@
 ---
 title: Limitations and roadmap
-description: What Staff Manager version 1.0.0 does not do yet, and known limits.
+description: "What Staff Manager version 1.0.0 does not do yet, and known limits."
 sidebar_position: 64
 category: Help
 ---

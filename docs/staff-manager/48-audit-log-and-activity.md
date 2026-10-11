@@ -1,6 +1,6 @@
 ---
 title: Activity and audit log
-description: See who changed staff, attendance, payments and settings, and when.
+description: "See who changed staff, attendance, payments and settings, and when."
 sidebar_position: 48
 category: Team, safety and data
 ---

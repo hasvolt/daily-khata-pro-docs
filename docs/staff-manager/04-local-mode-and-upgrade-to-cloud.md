@@ -1,6 +1,6 @@
 ---
 title: Local mode and upgrade to cloud
-description: Use Staff Manager without an account and move your data to a cloud account later.
+description: "Use Staff Manager without an account and move your data to a cloud account later."
 sidebar_position: 4
 category: Getting started
 ---

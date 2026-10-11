@@ -1,6 +1,6 @@
 ---
 title: Backup, restore and export
-description: Download a full copy of your business data and restore it when needed.
+description: "Download a full copy of your business data and restore it when needed."
 sidebar_position: 45
 category: Team, safety and data
 ---

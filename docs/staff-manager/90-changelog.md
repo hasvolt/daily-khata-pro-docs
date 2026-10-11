@@ -1,6 +1,6 @@
 ---
 title: Changelog
-description: Version history of Staff Manager.
+description: "Version history of Staff Manager."
 sidebar_position: 90
 category: Changelog
 ---

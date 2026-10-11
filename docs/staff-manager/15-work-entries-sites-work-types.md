@@ -1,6 +1,6 @@
 ---
 title: Work entries, sites and work types
-description: Record what work each staff member did and where, and manage sites and work types.
+description: "Record what work each staff member did and where, and manage sites and work types."
 sidebar_position: 15
 category: Core features
 ---

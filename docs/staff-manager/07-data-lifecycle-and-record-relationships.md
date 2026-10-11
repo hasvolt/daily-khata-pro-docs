@@ -1,6 +1,6 @@
 ---
 title: Data lifecycle and record relationships
-description: How staff, attendance, work, payments and settings relate to each other, and what happens when you edit or delete them.
+description: "How staff, attendance, work, payments and settings relate to each other, and what happens when you edit or delete them."
 sidebar_position: 7
 category: Getting started
 ---

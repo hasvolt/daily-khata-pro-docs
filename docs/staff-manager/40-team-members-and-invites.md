@@ -1,6 +1,6 @@
 ---
 title: Team members and invites
-description: Invite managers, supervisors, accountants and viewers, and manage their access.
+description: "Invite managers, supervisors, accountants and viewers, and manage their access."
 sidebar_position: 40
 category: Team, safety and data
 ---

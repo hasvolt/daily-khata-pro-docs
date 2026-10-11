@@ -1,6 +1,6 @@
 ---
 title: Staff profiles
-description: Add, edit, archive and delete staff, with every profile field explained.
+description: "Add, edit, archive and delete staff, with every profile field explained."
 sidebar_position: 11
 category: Core features
 ---

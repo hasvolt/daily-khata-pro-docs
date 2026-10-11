@@ -1,6 +1,6 @@
 ---
 title: Deployment guide
-description: Host Staff Manager with Supabase, Vercel and a subdomain such as staff.rozfiber.com.
+description: "Host Staff Manager with Supabase, Vercel and a subdomain such as staff.rozfiber.com."
 sidebar_position: 80
 category: Administrators and developers
 ---

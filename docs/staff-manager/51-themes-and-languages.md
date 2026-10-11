@@ -1,6 +1,6 @@
 ---
 title: Themes and languages
-description: Choose from 12 themes and 16 built-in languages, plus online translation.
+description: "Choose from 12 themes and 16 built-in languages, plus online translation."
 sidebar_position: 51
 category: Settings
 ---

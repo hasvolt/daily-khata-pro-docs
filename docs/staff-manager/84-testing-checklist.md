@@ -1,6 +1,6 @@
 ---
 title: Testing checklist
-description: What to check before each release.
+description: "What to check before each release."
 sidebar_position: 84
 category: Administrators and developers
 ---

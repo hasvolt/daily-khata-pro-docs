@@ -1,6 +1,6 @@
 ---
 title: Multi-device, sync and offline
-description: How your data syncs between devices and how Staff Manager works without internet.
+description: "How your data syncs between devices and how Staff Manager works without internet."
 sidebar_position: 42
 category: Team, safety and data
 ---

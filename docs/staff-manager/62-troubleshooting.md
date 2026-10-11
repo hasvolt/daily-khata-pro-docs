@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-description: Fix common problems with sign in, email, sync, printing and data.
+description: "Fix common problems with sign in, email, sync, printing and data."
 sidebar_position: 62
 category: Help
 ---

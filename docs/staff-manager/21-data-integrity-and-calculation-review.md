@@ -1,6 +1,6 @@
 ---
 title: Reconcile a staff balance
-description: A step-by-step way to check that a staff member's balance is correct.
+description: "A step-by-step way to check that a staff member's balance is correct."
 sidebar_position: 21
 category: Core features
 ---

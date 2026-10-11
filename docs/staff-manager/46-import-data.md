@@ -1,6 +1,6 @@
 ---
 title: Import data
-description: Import a staff list from a CSV file with preview and rollback.
+description: "Import a staff list from a CSV file with preview and rollback."
 sidebar_position: 46
 category: Team, safety and data
 ---

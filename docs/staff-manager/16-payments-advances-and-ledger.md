@@ -1,6 +1,6 @@
 ---
 title: Payments, advances and ledger
-description: Record wages, advances, bonuses, deductions and loans, and see each staff member's balance.
+description: "Record wages, advances, bonuses, deductions and loans, and see each staff member's balance."
 sidebar_position: 16
 category: Core features
 ---

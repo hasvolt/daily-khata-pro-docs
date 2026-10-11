@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: What Staff Manager is, who it is for, and the main ideas behind it.
+description: "What Staff Manager is, who it is for, and the main ideas behind it."
 sidebar_position: 1
 category: Getting started
 ---

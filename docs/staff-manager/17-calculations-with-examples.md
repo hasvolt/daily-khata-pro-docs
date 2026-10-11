@@ -1,6 +1,6 @@
 ---
 title: Calculations with examples
-description: How Staff Manager calculates earnings and net payable, with worked examples.
+description: "How Staff Manager calculates earnings and net payable, with worked examples."
 sidebar_position: 17
 category: Core features
 ---

@@ -1,6 +1,6 @@
 ---
 title: FAQ
-description: Frequently asked questions about Staff Manager.
+description: "Frequently asked questions about Staff Manager."
 sidebar_position: 61
 category: Help
 ---

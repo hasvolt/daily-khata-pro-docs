@@ -1,6 +1,6 @@
 ---
 title: Salary slips and statements
-description: Create salary slips and payment receipts for staff.
+description: "Create salary slips and payment receipts for staff."
 sidebar_position: 31
 category: Reports and printing
 ---

@@ -1,6 +1,6 @@
 ---
 title: Glossary
-description: Words used in Staff Manager.
+description: "Words used in Staff Manager."
 sidebar_position: 63
 category: Help
 ---

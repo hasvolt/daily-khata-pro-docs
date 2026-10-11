@@ -1,6 +1,6 @@
 ---
 title: Environment variables
-description: Configuration settings for Staff Manager.
+description: "Configuration settings for Staff Manager."
 sidebar_position: 81
 category: Administrators and developers
 ---

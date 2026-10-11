@@ -1,6 +1,6 @@
 ---
 title: Accounts and sign in
-description: Create an account, confirm your email, sign in, reset your password and sign out.
+description: "Create an account, confirm your email, sign in, reset your password and sign out."
 sidebar_position: 3
 category: Getting started
 ---

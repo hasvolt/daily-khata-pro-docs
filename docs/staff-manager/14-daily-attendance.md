@@ -1,6 +1,6 @@
 ---
 title: Daily attendance
-description: Mark attendance for all staff in seconds, use the monthly calendar, and record overtime.
+description: "Mark attendance for all staff in seconds, use the monthly calendar, and record overtime."
 sidebar_position: 14
 category: Core features
 ---

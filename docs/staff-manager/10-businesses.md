@@ -1,6 +1,6 @@
 ---
 title: Businesses
-description: Create, switch, join and leave businesses in Staff Manager.
+description: "Create, switch, join and leave businesses in Staff Manager."
 sidebar_position: 10
 category: Core features
 ---

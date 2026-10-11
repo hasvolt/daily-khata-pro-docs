@@ -1,6 +1,6 @@
 ---
 title: Month settlement and period locking
-description: Review what is due for a month, pay staff, and lock the month to protect your records.
+description: "Review what is due for a month, pay staff, and lock the month to protect your records."
 sidebar_position: 18
 category: Core features
 ---

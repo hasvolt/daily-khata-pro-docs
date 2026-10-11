@@ -1,6 +1,6 @@
 ---
 title: Roles and permissions
-description: What the Owner, Manager, Supervisor, Accountant and Viewer roles can do.
+description: "What the Owner, Manager, Supervisor, Accountant and Viewer roles can do."
 sidebar_position: 41
 category: Team, safety and data
 ---

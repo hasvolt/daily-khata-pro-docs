@@ -1,6 +1,6 @@
 ---
 title: Trash and recovery
-description: Deleted items go to Trash first and can be restored.
+description: "Deleted items go to Trash first and can be restored."
 sidebar_position: 44
 category: Team, safety and data
 ---

@@ -1,6 +1,6 @@
 ---
 title: Conflicts
-description: What happens when two devices change the same record, and how to resolve it.
+description: "What happens when two devices change the same record, and how to resolve it."
 sidebar_position: 43
 category: Team, safety and data
 ---

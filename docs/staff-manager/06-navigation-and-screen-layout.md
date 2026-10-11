@@ -1,6 +1,6 @@
 ---
 title: Navigation and screen layout
-description: A tour of the Staff Manager screens, header, bottom bar and menu.
+description: "A tour of the Staff Manager screens, header, bottom bar and menu."
 sidebar_position: 6
 category: Getting started
 ---

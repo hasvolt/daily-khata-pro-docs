@@ -1,6 +1,6 @@
 ---
 title: Work history
-description: A timeline of attendance, work and payments for each staff member.
+description: "A timeline of attendance, work and payments for each staff member."
 sidebar_position: 30
 category: Reports and printing
 ---
