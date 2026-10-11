@@ -35,7 +35,7 @@ From the history you can:
 - **Share** a summary
 - Open the staff member's **Salary Slip**
 
-Amounts follow the [privacy mask](52-privacy-mask.md).
+Amounts follow the [privacy mask](52-app-lock-and-privacy-mask.md).
 
 ## Related
 
