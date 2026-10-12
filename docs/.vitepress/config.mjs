@@ -1,12 +1,20 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Daily Khata Pro',
+  title: 'Rozfiber Documentation',
 
   description:
-    'Official user manual, documentation, and help center for Daily Khata Pro.',
+    'Official central documentation hub for Rozfiber apps and platforms: Daily Khata Pro (rozfiber.com), Staff Manager (staff.rozfiber.com), and platform resources.',
 
   cleanUrls: true,
+
+  vite: {
+    server: {
+      host: '0.0.0.0',
+      port: 3000,
+      allowedHosts: true
+    }
+  },
 
   head: [
     [
@@ -16,6 +24,13 @@ export default defineConfig({
         type: 'image/svg+xml',
         href: '/favicon.svg'
       }
+    ],
+    [
+      'meta',
+      {
+        name: 'theme-color',
+        content: '#1d4ed8'
+      }
     ]
   ],
 
@@ -24,26 +39,41 @@ export default defineConfig({
   },
 
   themeConfig: {
-    siteTitle: 'Daily Khata Pro',
+    logo: '/logo.svg',
+    siteTitle: 'Rozfiber Docs',
 
     // Top Navigation Menu
     nav: [
       { text: 'Home', link: '/' },
       {
-        text: 'Getting Started',
-        link: '/guide/getting-started'
-      },
-      {
-        text: 'User Guide',
-        link: '/guide/chapter-1-introduction-overview'
-      },
-      {
-        text: 'FAQ',
-        link: '/guide/chapter-23-frequently-asked-questions'
+        text: 'Daily Khata Pro',
+        items: [
+          { text: 'Getting Started', link: '/guide/getting-started' },
+          { text: 'User Manual (Chapters 1–23)', link: '/guide/chapter-1-introduction-overview' },
+          { text: 'Invoices & Calculators', link: '/guide/chapter-16-gst-non-gst-invoice-generator' },
+          { text: 'Frequently Asked Questions', link: '/guide/chapter-23-frequently-asked-questions' },
+          { text: 'Open App (rozfiber.com)', link: 'https://rozfiber.com' }
+        ]
       },
       {
         text: 'Staff Manager',
-        link: '/staff-manager/'
+        items: [
+          { text: 'Staff Manager Overview', link: '/staff-manager/' },
+          { text: 'Introduction & Setup', link: '/staff-manager/01-introduction' },
+          { text: 'Quick Start Guide', link: '/staff-manager/02-quick-start' },
+          { text: 'Attendance, Wages & Slips', link: '/staff-manager/14-daily-attendance' },
+          { text: 'Architecture & Database', link: '/staff-manager/82-architecture' },
+          { text: 'Open App (staff.rozfiber.com)', link: 'https://staff.rozfiber.com' }
+        ]
+      },
+      {
+        text: 'Ecosystem',
+        items: [
+          { text: 'Daily Khata Pro (rozfiber.com)', link: 'https://rozfiber.com' },
+          { text: 'Staff Manager (staff.rozfiber.com)', link: 'https://staff.rozfiber.com' },
+          { text: 'Official Docs (docs.rozfiber.com)', link: 'https://docs.rozfiber.com' },
+          { text: 'Advertising Policy', link: '/advertising-policy' }
+        ]
       }
     ],
 
@@ -487,8 +517,8 @@ export default defineConfig({
 
     // Website Footer
     footer: {
-      message: 'Official Documentation for Daily Khata Pro',
-      copyright: 'Copyright © 2026 Rozfiber'
+      message: 'Official Documentation Hub for Rozfiber Apps & Platforms',
+      copyright: 'Copyright © 2026 Rozfiber. All rights reserved.'
     },
 
     lastUpdatedText: 'Last updated'

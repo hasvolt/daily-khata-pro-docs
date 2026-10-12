@@ -1,0 +1,8 @@
+{
+  "name": "Daily Khata Pro Docs",
+  "description": "Official documentation hub for Rozfiber products: Daily Khata Pro, Staff Manager, and platforms.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

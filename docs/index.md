@@ -2,216 +2,171 @@
 layout: home
 
 hero:
-  name: Daily Khata Pro
-  text: User Manual & Documentation
-  tagline: A practical guide to recording income and expenses, organizing financial records, using planning tools, and understanding the app's available features.
+  name: Rozfiber Docs
+  text: Official Documentation Hub
+  tagline: The central knowledge base and technical manual for all Rozfiber applications, platforms, and digital tools.
   image:
-    alt: Daily Khata Pro Documentation
+    src: /logo.svg
+    alt: Rozfiber Documentation Hub Logo
   actions:
     - theme: brand
-      text: Get Started
+      text: Daily Khata Pro Docs
       link: /guide/getting-started
     - theme: alt
-      text: Frequently Asked Questions
-      link: /guide/chapter-23-frequently-asked-questions
+      text: Staff Manager Docs
+      link: /staff-manager/
+    - theme: alt
+      text: Platform Ecosystem
+      link: '#platform-ecosystem'
 
 features:
-  - icon: 📒
-    title: Income & Expense Tracking
-    details: Learn how to record money received and money spent, categorize transactions, review entries, and keep day-to-day financial records organized.
+  - icon:
+      svg: '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/></svg>'
+    title: Daily Khata Pro (rozfiber.com)
+    details: Complete personal and business bookkeeping, income and expense registers, multi-currency planning calculators, GST/non-GST invoice generation, and private security vaults.
+    link: /guide/getting-started
+    linkText: Open Daily Khata Docs →
 
-  - icon: 🧮
-    title: Financial Calculators
-    details: Explore available calculators for everyday arithmetic and financial planning, understand the inputs and formulas they use, and review results before relying on them.
+  - icon:
+      svg: '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>'
+    title: Staff Manager (staff.rozfiber.com)
+    details: Dedicated staff management for contractors, shop owners, workshops, and farms. Tracks daily attendance, multi-rate wages (daily, monthly, per-piece), payments, advances, and printable salary slips.
+    link: /staff-manager/
+    linkText: Open Staff Manager Docs →
 
-  - icon: 📊
-    title: Reports & Records
-    details: Learn how to review transaction history, filter or examine records where supported, understand summaries and charts, and prepare available statements or exports.
+  - icon:
+      svg: '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
+    title: Domain Architecture
+    details: Unified ecosystem organized by dedicated subdomains for zero-cross-contamination, high security, and focused user experiences across web and mobile.
+    link: '#platform-ecosystem'
+    linkText: View Domain Directory →
 
-  - icon: 💼
-    title: Work & Attendance
-    details: Understand how work notes, project timelines, attendance entries, working hours, overtime calculations, and wage-related records can help organize work information where these features are available.
+  - icon:
+      svg: '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>'
+    title: Offline-First Storage
+    details: Built with local-first IndexedDB storage and resilient cloud sync (Supabase). Fully operational offline with zero downtime for field work.
+    link: /staff-manager/05-install-and-offline-use
+    linkText: Read Offline Architecture →
 
-  - icon: 🔐
-    title: Privacy & Data Security
-    details: Learn about app-lock options, local data storage, responsible handling of sensitive information, PIN recovery options, and practical steps for protecting your records.
+  - icon:
+      svg: '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>'
+    title: Privacy & Data Sovereignty
+    details: Strict zero-knowledge principles, Row Level Security (RLS) enforcement, client-side encryption options, and full data export capabilities.
+    link: /guide/chapter-2-app-passcode-lock-security
+    linkText: Review Security Standards →
 
-  - icon: 💾
-    title: Backup & Restore
-    details: Review available export, backup, restore, and supported synchronization workflows, and learn why important records should be backed up and verified regularly.
+  - icon:
+      svg: '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>'
+    title: Modular System Growth
+    details: Standardized documentation structure designed to onboard future Rozfiber apps, business utilities, developer APIs, and integrations with ease.
+    link: '#adding-future-products-and-features'
+    linkText: View Integration Model →
 ---
 
-## Welcome to Daily Khata Pro Documentation
+<div id="platform-ecosystem"></div>
 
-Welcome to the official user documentation for **Daily Khata Pro**.
+## Platform Ecosystem
 
-This documentation is intended to help users understand the app's interface, learn how its available features work, and develop a consistent way to maintain financial and related personal records. It provides explanations, step-by-step guidance, examples, practical checklists, and troubleshooting suggestions.
+Rozfiber develops modern, secure, and privacy-focused digital tools designed for individuals, small businesses, contractors, and local enterprises.
 
-Whether you are opening the app for the first time or reviewing a feature you already use, start with the section most relevant to your task. You do not need to read every chapter in order, although new users may find it helpful to begin with the Getting Started guide.
+To maintain optimal security, clean performance, and focused workflows, each major product operates under its dedicated subdomain, while **`docs.rozfiber.com`** serves as the central documentation authority.
 
-> **Please note:** The exact features, labels, and available actions can vary by app version. If an option described in a guide is not visible in your installed version, check the relevant settings or version information and rely on the controls actually available in your app.
+| Platform / Application | Official URL | Purpose & Focus | Documentation |
+| :--- | :--- | :--- | :--- |
+| **Rozfiber Docs** | [docs.rozfiber.com](https://docs.rozfiber.com) | Central documentation portal for all Rozfiber products | Current Portal |
+| **Daily Khata Pro** | [rozfiber.com](https://rozfiber.com) | Financial ledger, income/expense logging, invoices, and planning | [Daily Khata Manual →](/guide/getting-started) |
+| **Staff Manager** | [staff.rozfiber.com](https://staff.rozfiber.com) | Staff attendance, wage calculations, salary slips, and workforce register | [Staff Manager Manual →](/staff-manager/) |
 
-## What You Can Learn Here
+---
 
-This documentation covers the main areas of Daily Khata Pro, including financial records, calculators, work-related tracking, reports, security, and data management. The guides explain the purpose of each feature, how to use it where available, what information to check, and what limitations to keep in mind.
+## 1. Daily Khata Pro Documentation
 
-### Getting Started
+::: tip Official Application
+Web App: [rozfiber.com](https://rozfiber.com) · [Open Getting Started Guide](/guide/getting-started)
+:::
 
-Learn the basics before adding your first records. The Getting Started guide introduces the app's main areas, explains a simple workflow, and helps you understand where to find commonly used functions.
+**Daily Khata Pro** is an intuitive daily financial bookkeeping and money management platform. It enables individuals, freelancers, and business owners to track finances accurately without complex accounting overhead.
 
-You can use it to learn how to:
+### Core Documentation Modules
+- **[Getting Started](/guide/getting-started)**: Quick setup, interface walkthrough, and recommended daily logging habits.
+- **[Security & Passcode Vault (Chapter 2)](/guide/chapter-2-app-passcode-lock-security)**: App-lock, local encryption, PIN protection, and data sovereignty.
+- **[Income, Expenses & Fund Allocation (Chapters 4–6)](/guide/chapter-4-smart-fund-allocation-rule)**: Smart fund allocation rules, income split logging, and structured expense categories.
+- **[Loans, EMIs & Split Bills (Chapters 9–10)](/guide/chapter-10-loans-emis-udhar-records)**: Group bill splitting, Udhar records, and loan repayment timelines.
+- **[Invoices & Statements (Chapters 12 & 16)](/guide/chapter-16-gst-non-gst-invoice-generator)**: Professional GST & Non-GST invoice generation and PDF exports.
+- **[Financial Planning Calculators (Chapters 17–18)](/guide/chapter-17-multi-purpose-financial-planning-calculators)**: Cross-currency, tax, inflation, savings, and investment planning tools.
+- **[Backup & Google Drive Sync (Chapters 14 & 22)](/guide/chapter-22-google-drive-client-side-sync-backup)**: Offline backups, encrypted file exports, and Google Drive integration.
+- **[Frequently Asked Questions](/guide/chapter-23-frequently-asked-questions)**: Answers to common questions, data recovery, and usage tips.
 
-- Become familiar with the interface and navigation.
-- Understand the difference between recording a transaction and using a calculator.
-- Enter information carefully and review it after saving.
-- Find relevant records and summaries where supported.
-- Build a simple routine for keeping records up to date.
+[Explore Full Daily Khata Pro Guide (23 Chapters) →](/guide/chapter-1-introduction-overview)
 
-[Read the Getting Started Guide →](/guide/getting-started)
+---
 
-### Managing Income, Expenses, and Financial Records
+## 2. Staff Manager Documentation
 
-Use the financial-record guides to understand how to document money received, money spent, and other financial activity. They explain the importance of clear descriptions, consistent categories, correct dates, and reviewing entries for mistakes or duplicates.
+::: tip Official Application
+Web App: [staff.rozfiber.com](https://staff.rozfiber.com) · [Open Staff Manager Docs](/staff-manager/)
+:::
 
-Topics may include:
+**Staff Manager** is a dedicated workforce management and wage calculation platform built for contractors, workshops, shop owners, small factories, farms, and households. It works seamlessly offline and syncs across devices when connected.
 
-- Recording income and identifying its source.
-- Logging expenses and categorizing spending.
-- Reviewing, correcting, or removing an incorrect entry where supported.
-- Understanding how transactions may affect app summaries.
-- Keeping personal, household, work, and business records distinct when useful.
-- Reviewing loans, repayments, budgets, goals, and shared expenses where those features are available.
+### Core Documentation Modules
+- **[Introduction & Overview (Chapter 01)](/staff-manager/01-introduction)**: Understanding the core staff lifecycle and workflow principles.
+- **[Quick Start Guide (Chapter 02)](/staff-manager/02-quick-start)**: Setting up your business profile, terminology presets, and first staff members in under 5 minutes.
+- **[Staff Profiles & Rates (Chapters 11–12)](/staff-manager/11-staff-profiles)**: Daily wage, monthly salary, hourly, and per-piece/per-unit wage structures with effective-date versioning.
+- **[Daily Attendance (Chapter 14)](/staff-manager/14-daily-attendance)**: 10-second one-tap attendance marking, half days, overtime hours, leaves, and calendar views.
+- **[Work Entries & Sites (Chapter 15)](/staff-manager/15-work-entries-sites-work-types)**: Tracking work across multiple job sites, workshops, or custom work categories.
+- **[Payments, Advances & Ledger (Chapter 16)](/staff-manager/16-payments-advances-and-ledger)**: Transparent salary advances, deductions, bonuses, loans, and net payable balances.
+- **[Salary Slips & PDF Statements (Chapters 31–33)](/staff-manager/31-salary-slips-and-statements)**: Generating professional salary slips, multi-language reports, and Excel/CSV exports.
+- **[Multi-User Teams & Roles (Chapters 40–41)](/staff-manager/40-team-members-and-invites)**: Owner, Manager, Supervisor, Accountant, and Viewer permission controls.
+- **[System Architecture & Database (Chapter 82)](/staff-manager/82-architecture)**: Local-first Dexie (IndexedDB), Supabase backend, RLS policies, and conflict resolution.
 
-For reliable records, enter information as accurately as possible and compare important totals with your own receipts, statements, or other original documents.
+[Explore All Staff Manager Chapters (40+ Guides) →](/staff-manager/)
 
-### Understanding Calculators and Planning Tools
+---
 
-The calculator guides explain how to enter values, understand the displayed result, and check calculations before using them in a real-world decision.
+<div id="adding-future-products-and-features"></div>
 
-Depending on the installed version, the documentation may cover general arithmetic, currency conversion, loan EMI estimates, savings or investment illustrations, percentage allocation, tax calculations, discounts, margins, and goal planning.
+## Adding Future Products and Features
 
-Calculator results depend on the values and assumptions entered. For example, an estimate may not include every fee, tax rule, lender condition, exchange-rate spread, or change in market conditions. Treat projections as planning aids, not guarantees or professional financial advice.
+`docs.rozfiber.com` is architected as an **extensible documentation platform**. When a new Rozfiber application, service, or feature suite is introduced, it is isolated in its own folder structure to maintain modularity.
 
-### Reports, Charts, and Transaction History
+### Directory Structure for New Applications
+```text
+docs/
+├── guide/               # Daily Khata Pro documentation (rozfiber.com)
+├── staff-manager/       # Staff Manager documentation (staff.rozfiber.com)
+├── [new-product]/       # Future product manual (e.g., inventory, invoicing)
+│   ├── index.md         # Product overview & quick start
+│   ├── 01-overview.md   # Functional specifications
+│   └── ...              # Topic-specific guides
+└── .vitepress/
+    └── config.mjs       # Navigation bar & isolated sidebar config
+```
 
-Reports and history tools can help you review information you have entered. The relevant guides explain how to examine records over a selected period, understand summaries, and use available charts, statements, or export options.
+### Steps to Register a New Product
+1. Create a dedicated directory under `docs/[product-name]/`.
+2. Add an `index.md` entry point with quick-start guidance and module links.
+3. Register the product in `docs/.vitepress/config.mjs` under the top navigation bar.
+4. Define a self-contained `sidebar` mapping so users browsing that product stay focused on its documentation.
 
-When reviewing a report:
+---
 
-1. Confirm the selected date range and any filters.
-2. Check whether the underlying entries are complete and accurate.
-3. Look for duplicate, missing, or incorrectly categorized transactions.
-4. Compare important figures with original records when appropriate.
-5. Export or print information only when the relevant option is available and useful.
+## Engineering and Trust Standards
 
-A report can only summarize the information recorded in the app. It should not automatically be treated as a bank statement, audited account, or official financial document.
+Across all Rozfiber applications, the following technical and ethical commitments apply:
 
-### Work Records and Attendance
+1. **Local-First Reliability**: Core functionality operates independently of internet connectivity. Data is cached and processed locally before syncing.
+2. **Transparent Mathematical Logic**: Every calculator, ledger calculation, and wage formula is deterministic and mathematically transparent.
+3. **Strict Data Protection**: Row Level Security (RLS) is enforced in database rules. Sensitive documents, payment card numbers, and government IDs are never collected or stored.
+4. **Clean Design Without Intrusive Ads**: Clear navigation, theme adaptability across all supported devices, and adherence to our [Advertising Policy](/advertising-policy).
 
-Work-related guides explain how available project notes, daily timelines, attendance records, working-hour entries, overtime estimates, and wage-related information can be organized.
+---
 
-These tools may help you maintain a personal record of work completed, locations, shift details, or payments received. Enter dates, hours, rates, and payment details carefully, and review summaries before relying on them.
+## Support and Inquiries
 
-App calculations do not automatically establish official attendance, employment status, payroll compliance, or legal entitlement to wages. Where formal records are required, follow the relevant employer procedures and applicable rules.
-
-### Privacy, App Security, and Data Management
-
-Financial records and personal notes may contain sensitive information. The privacy and security guides explain available app-lock options, responsible use of PINs, data-storage considerations, and precautions for handling backups.
-
-Good practices include:
-
-- Use a passcode or device security option when available.
-- Do not share your PIN, recovery answers, or sensitive records unnecessarily.
-- Avoid storing passwords or other highly sensitive credentials in general notes.
-- Understand where records are stored before changing devices or clearing browser/app data.
-- Keep backups of important information and verify that a backup can be accessed.
-- Review exported files before sharing them with another person or service.
-
-A passcode screen alone does not prove that all stored data is encrypted. The exact protection depends on the app's implementation, device security, storage method, and the features enabled in your version.
-
-### Backup, Restore, and Supported Synchronization
-
-The backup guides explain why keeping a separate copy of important records matters, how to use export or backup options where available, and what to consider before restoring data or moving to another device.
-
-Before restoring a backup, check which data it contains and whether the operation could replace existing records. Keep an untouched copy of an important backup until you have verified the restored information.
-
-Cloud storage or synchronization should only be considered available when it is actually implemented and configured in your version. Do not assume that data is automatically synchronized across devices just because the app can be used online.
-
-## Explore the Documentation
-
-Use the links below to find the guidance most relevant to your task.
-
-### Start Here
-
-Begin with the basic guide if you are new to the app or want to review the recommended workflow.
-
-[Read the Getting Started Guide →](/guide/getting-started)
-
-### Frequently Asked Questions
-
-The FAQ section addresses common questions about app usage, records, calculators, storage, backup, security, and troubleshooting. It is a useful first stop when you are unsure how a feature works.
-
-[Browse Frequently Asked Questions →](/guide/chapter-23-frequently-asked-questions)
-
-### Other Guides
-
-You can also explore documentation about:
-
-- Income recording and expense tracking.
-- Personal notes and private records.
-- Fund allocation, budgets, and financial goals.
-- Split bills, loans, EMIs, and repayment records.
-- Reports, charts, and PDF statements.
-- Invoice tools and financial calculators.
-- Cross-currency calculations and market information, where available.
-- Work projects, attendance, shift hours, and wage registers.
-- Source-code review and practical security considerations.
-- Backup, restore, and supported Google Drive workflows, where implemented.
-
-Use the navigation menu or sidebar to locate a specific chapter. If a link does not open, the page may have been renamed, moved, or not yet added to the deployed documentation version.
-
-## A Recommended Everyday Workflow
-
-The following is a general record-keeping routine. Adjust it to your needs and to the options available in your installed version.
-
-1. **Record activity promptly.** Enter income, expenses, work details, or other information when practical, rather than relying on memory later.
-2. **Review the entry.** Check the date, amount, category, description, and any other fields you filled in.
-3. **Keep descriptions clear.** Use names and notes that will make sense when you look at the record weeks or months later.
-4. **Review summaries periodically.** Check transaction history, reports, budgets, or goals where available.
-5. **Correct mistakes carefully.** If an entry is wrong, use the supported editing or correction process and review any affected totals.
-6. **Back up important records.** Follow the backup guidance for your version and confirm that the backup is stored somewhere you can access.
-7. **Protect sensitive information.** Use appropriate device security and be careful when exporting or sharing records.
-
-## Important Information and Limitations
-
-Daily Khata Pro is intended to help users organize financial records and related information. The app and its documentation should be used with an understanding of the following points:
-
-- **Version differences:** Feature availability, interface labels, and workflows can change between releases.
-- **User-entered data:** Summaries and calculations depend on the information entered and the logic implemented in the installed version.
-- **No automatic verification of real-world events:** A saved entry does not, by itself, confirm that a payment, transfer, loan, invoice, or work shift occurred.
-- **Calculations are not guarantees:** Estimates and projections depend on their assumptions and may not include every real-world cost or condition.
-- **Official records:** App reports may not replace bank statements, tax records, accounting records, payroll documents, or other official documents.
-- **Backups require care:** An export or backup should not be assumed to be encrypted, automatically synchronized, or recoverable until the relevant behavior has been verified.
-- **Data protection depends on implementation:** Review the app's actual storage and security behavior rather than assuming that a particular protection exists.
-
-For important financial, tax, employment, legal, or investment decisions, verify the relevant information with appropriate original documents or qualified professionals.
-
-## Troubleshooting and Getting Help
-
-If a feature does not behave as expected:
-
-1. Confirm that you are using the correct page or section.
-2. Check that required fields contain valid values.
-3. Review the relevant feature guide and FAQ.
-4. Confirm whether the feature is supported in your installed version.
-5. If the issue involves missing records, avoid clearing app data or reinstalling until you understand the storage and recovery implications.
-6. If you have a backup, verify that it is the correct file before attempting a restore.
-7. When reporting a technical issue, describe the steps that led to it and include the app version if known. Avoid sharing PINs, private notes, account numbers, or other sensitive information.
-
-For a common question, start here:
-
-[Browse Frequently Asked Questions →](/guide/chapter-23-frequently-asked-questions)
-
-## Our Documentation Goal
-
-The goal of this documentation is to make Daily Khata Pro easier to understand through clear explanations, practical examples, and careful descriptions of available features. The guides are intended to help users make informed use of the app while understanding the importance of accurate records, safe data handling, and independent verification of important information.
+- **Daily Khata Pro App**: [rozfiber.com](https://rozfiber.com)
+- **Staff Manager App**: [staff.rozfiber.com](https://staff.rozfiber.com)
+- **Daily Khata Documentation**: [/guide/getting-started](/guide/getting-started)
+- **Staff Manager Documentation**: [/staff-manager/](/staff-manager/)
+- **Advertising & Editorial Policy**: [/advertising-policy](/advertising-policy)
+- **Technical Inquiries**: support@rozfiber.com
