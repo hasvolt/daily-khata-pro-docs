@@ -372,3 +372,84 @@ tr:hover td {
   color: var(--vp-c-brand-1) !important;
   font-weight: 600 !important;
 }
+
+/* Google Translate Widget Styling */
+body {
+  top: 0px !important;
+  position: static !important;
+}
+
+.skiptranslate iframe,
+.goog-te-banner-frame,
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+}
+
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.goog-te-gadget {
+  font-family: var(--vp-font-family-base) !important;
+  font-size: 0px !important;
+  color: transparent !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  line-height: 1 !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+  margin: 0 !important;
+  padding: 4px 8px !important;
+  height: 28px !important;
+  background-color: var(--vp-c-bg) !important;
+  color: var(--vp-c-text-1) !important;
+  border: 1px solid var(--vp-c-border) !important;
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-family: var(--vp-font-family-base) !important;
+  cursor: pointer !important;
+  outline: none !important;
+  transition: all 0.2s ease !important;
+  max-width: 120px !important;
+  text-overflow: ellipsis !important;
+}
+
+.goog-te-gadget .goog-te-combo:hover,
+.goog-te-gadget .goog-te-combo:focus {
+  border-color: var(--vp-c-brand-1) !important;
+}
+
+.dark .goog-te-gadget .goog-te-combo {
+  background-color: var(--vp-c-bg-soft) !important;
+  color: var(--vp-c-text-1) !important;
+  border-color: var(--vp-c-border) !important;
+}
+
+.goog-te-gadget > span {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .google-translate-wrapper {
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+    padding: 1px 4px !important;
+  }
+  .goog-te-gadget .goog-te-combo {
+    max-width: 90px !important;
+    font-size: 11px !important;
+    height: 26px !important;
+    padding: 2px 4px !important;
+  }
+}
+

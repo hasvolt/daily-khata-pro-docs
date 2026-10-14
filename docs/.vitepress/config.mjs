@@ -31,6 +31,136 @@ export default defineConfig({
         name: 'theme-color',
         content: '#1d4ed8'
       }
+    ],
+    [
+      'link',
+      {
+        rel: 'canonical',
+        href: 'https://docs.rozfiber.com/'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'description',
+        content:
+          'Official central documentation hub for Rozfiber platforms: Daily Khata Pro (rozfiber.com) and Staff Manager (staff.rozfiber.com). Complete user manuals, setup guides, and technical specifications.'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'keywords',
+        content:
+          'Rozfiber, Daily Khata Pro, Staff Manager, Rozfiber Docs, User Manual, Khata App, Staff Attendance, Wage Register, Salary Slips, Documentation'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'author',
+        content: 'Rozfiber'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'robots',
+        content: 'index, follow'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:type',
+        content: 'website'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:site_name',
+        content: 'Rozfiber Documentation'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:title',
+        content: 'Rozfiber Documentation Hub – Official Manuals & Technical Specs'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content:
+          'Official central documentation hub for Rozfiber platforms: Daily Khata Pro (rozfiber.com) and Staff Manager (staff.rozfiber.com).'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:url',
+        content: 'https://docs.rozfiber.com/'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:image',
+        content: 'https://docs.rozfiber.com/logo.svg'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:title',
+        content: 'Rozfiber Documentation Hub – Official Manuals & Technical Specs'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:description',
+        content:
+          'Official central documentation hub for Rozfiber platforms: Daily Khata Pro (rozfiber.com) and Staff Manager (staff.rozfiber.com).'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:image',
+        content: 'https://docs.rozfiber.com/logo.svg'
+      }
+    ],
+    [
+      'script',
+      {
+        type: 'application/ld+json'
+      },
+      JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Rozfiber Documentation',
+        alternateName: 'Rozfiber Docs',
+        url: 'https://docs.rozfiber.com',
+        description:
+          'Official central documentation hub for Rozfiber applications, platforms, and services.',
+        publisher: {
+          '@type': 'Organization',
+          name: 'Rozfiber',
+          url: 'https://rozfiber.com',
+          logo: 'https://docs.rozfiber.com/logo.svg'
+        }
+      })
     ]
   ],
 
