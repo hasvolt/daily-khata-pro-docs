@@ -165,7 +165,22 @@ export default defineConfig({
   ],
 
   sitemap: {
-    hostname: 'https://docs.rozfiber.com'
+    hostname: 'https://docs.rozfiber.com',
+    transformItems(items) {
+      items.unshift(
+        {
+          url: 'https://staff.rozfiber.com/',
+          changefreq: 'daily',
+          priority: 1.0
+        },
+        {
+          url: 'https://rozfiber.com/',
+          changefreq: 'daily',
+          priority: 1.0
+        }
+      )
+      return items
+    }
   },
 
   themeConfig: {
